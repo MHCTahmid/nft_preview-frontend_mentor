@@ -135,3 +135,9 @@ hr {
     opacity: 0.3;
 
 }
+
+footer {
+    color: hsl(215, 51%, 70%);
+    margin-top: 2em;
+    text-align: center;
+}
