@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+p {
+    font-size: 18px;
+}
+
+/****************** Card **************/
+
+main {
+    margin-top: 2.5em;
+}
+
+.card {
+    margin: 0 auto;
+    width: 23vw;
+    height: 84.5vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+}
+
+.card_image img {
+    width: 20vw;
+    height: 50vh;
+    margin: 1.3em 1em;
+    border-radius: 1em;
+    position: relative;
+    left: 0.35em;
+}
+
+
+.content h1 {
+    margin-left: 1.5em;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content p {
+    margin-left: 1.5em;
+    margin-right: 1.3em;
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+
+.eth_and_clock_part {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5em 0.5em 1.5em;
+}
+
+.eth_part h2 {
+    display: inline;
+    position: relative;
+    top: -0.11em;
+    left: 0.2em;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.clock_part p {
+    display: inline;
+    position: relative;
+    left: -1.4em;
+    top: -0.15em;
+}
+
+.clock_part {
+    position: relative;
+    left: 2.5em;
+}
+
+hr {
+    width: 85%;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.last_part {
+    margin-left: 2.1em;
+    margin-top: 0.8em;
+}
+
+.last_part img {
+    width: 8%;
+}
+
+.last_part h2 {
+    display: inline;
+    position: relative;
+    top: -0.5em;
+    left: 1em;
+}
+
+.last_part h2 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+
+.last_part span {
+    color: white;
+}
+
+/****************** Hover Effect ***************/
+
+.content h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.last_part span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.card_image:hover {
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card_image img:hover {
+    cursor: pointer;
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3.2em;
+    opacity: 0.3;
+
+}
